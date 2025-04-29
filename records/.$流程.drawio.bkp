@@ -1,0 +1,39 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="第 1 页" id="RUmwE1GbpzH-9mqRtTYa">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-5" value="time window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="290" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-4" value="time window" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GMKP-tjXK5RG5N9-7usU-1" target="GMKP-tjXK5RG5N9-7usU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-1" value="x、y、p、t&lt;div&gt;序列&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="310" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-2" value="time windows&lt;div&gt;（3D，元素按时间戳归一化&lt;br&gt;&lt;div&gt;窗口个数固定）&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="310" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-8" value="分类" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GMKP-tjXK5RG5N9-7usU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="345" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-6" value="3D卷积+SNN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="310" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GMKP-tjXK5RG5N9-7usU-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GMKP-tjXK5RG5N9-7usU-2" target="GMKP-tjXK5RG5N9-7usU-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="440" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
